@@ -1,0 +1,33 @@
+.bg{
+    background-image: url(../../../assets/img/about.jpg);
+    height: 900px;
+    width:1920px;
+    display: flex;
+    position: fixed;
+    z-index: -1;
+    top: 50px;
+    margin: 0%;
+    padding: 0%;
+    left: 0%;
+    overflow: hidden;
+}
+h1{
+    display: flex;
+    position: absolute;
+    top: 150px;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(255, 255, 255);
+    left: 750px;
+}
+p{
+    display: flex;
+    position: absolute;
+    top:300px;
+    font-weight: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:#fff;
+    left: 250px;
+    font-size: 20px;
+}

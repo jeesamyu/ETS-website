@@ -1,0 +1,129 @@
+body{
+    background: linear-gradient(90deg,#1b69e9,#33a7fd);
+    position: absolute;
+    display: flex;
+    z-index: -1;
+    top: 40px;
+    height: 900px;
+    width: 1845px;
+    left: 0px;
+    left: -10px;
+    overflow: hidden;
+}
+div.container{
+    background-color: aliceblue;
+    border: 3px solid black; 
+    position: relative;
+    width: 535px;
+    height: 600px;
+    justify-content: space-around;
+    top: 200px;
+    left:400px;
+    overflow: hidden;
+}
+.fullname{
+    height: 20px;
+}
+.c1{
+    flex-flow: row;
+    position: absolute;
+    display: flex;
+}
+p{
+    top:210px;
+    position: relative;
+    display: flex;
+    left: 1050px;
+    flex-flow: row wrap;
+    padding: 10px;
+    background-color: aliceblue;
+    height: auto;
+    width:200px;
+    border: 2px solid black;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow: hidden;
+    z-index: 121;
+}
+.reset1{
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    height: 40px;
+    width: 430px;
+    background-color:#e8c25a;
+
+}
+.button1{
+    position: absolute;
+    left: 50px;
+    bottom: 100px;
+    height: 40px;
+    width: 430px;
+    background-color: #1d70f8;
+    color: #fff;
+}
+.email1{
+    height: 20px;
+    width: 425px;
+}
+.number1{
+    height: 20px;
+    width: 425px;
+}
+.section{
+    height: 20px;
+}
+.ages{
+    height: 20px;
+}
+.add1{
+    height: 30px;
+    position: absolute;
+    width: 425px;
+}
+
+.name{
+    top: 100px;
+    position: absolute;
+    left: 50px;
+}
+.last{
+    top:100px;
+    position: absolute;
+    left: 300px;
+}
+.age{
+    top: 310px;
+    position: absolute;
+    left: 300px;
+}
+.class{
+    bottom: 0px;
+    left: 50px;
+    top: 310px;
+    position: absolute;
+}
+.phone{
+    top: 240px;
+    left: 50px;
+    position: absolute;
+}
+.mail{
+    top: 170px;
+    left: 50px;
+    position: absolute;
+}
+.address{
+    top: 380px;
+    left: 50px;
+    position: absolute;
+}
+h1{
+    top: 5px;
+    position: absolute;
+    z-index: 111;
+    left: 100px;
+    text-decoration: underline;
+}

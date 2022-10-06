@@ -1,0 +1,82 @@
+.container{
+    height:400px;
+    width: 250px;
+    top:200px;
+    position:fixed;
+    border: 2px solid #000;
+    padding-top: 200px;
+    padding-left: 900px;
+    left: 500px;
+    background:linear-gradient(90deg,#fff,#0c8bf9);
+}
+.a1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    height:30px;
+    padding-left: 10px;
+}
+.a2{
+    height: 30px;
+    padding-left: 10px;
+}.a3{
+    height: 30px;
+    padding-left: 10px;
+}
+
+.a4{
+    height: 30px;
+    padding-left:10px ;
+}
+.a5{
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    height: 35px;
+    cursor: pointer;
+}
+
+img{
+    background-image: url(../../../assets/img/team.gif);
+    height: auto;
+    width: auto;
+    top: 100px;
+    display: flex;
+    position: absolute;
+    left: 10px;
+
+}
+
+.body{
+    background-image:url(../../../assets/img/about.jpg);
+    height:900px;
+    width: 1920px;
+    position: fixed;
+    z-index: -1;
+    left: 0px;
+    bottom: 0%;
+}
+h1{
+    font-size: 40px;
+    top: 50px;
+    position: absolute;
+    left: 710px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+.stock{
+    background: linear-gradient(90deg,lightblue,white);
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    position:absolute;
+    padding-top: 20px;
+    padding-left: 20px;
+    top: 300px;
+    left: 60px;
+    border: 2px solid #000;
+}
+p{
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
